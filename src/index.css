@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(to bottom, #5f97ff, #0059ff);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.student-text{
+  background-color: #9ed8ff;
+  font-size: 2rem;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem;
+
+  border-radius: 2rem;
+}
+
+.student-subtext{
+  margin: 0.75rem;
+  padding: 0.5rem;
+  width: 30rem;
+  border-bottom: #003f64 solid 2px;
+}
+
+button{
+  background-color: rgb(216, 0, 0);
+  border: none;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 1rem;
+  font-weight: 1000;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+h1{
+  color: white;
+  font-size: 5rem;
+  margin: 3rem;
+}
